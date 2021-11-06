@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { Card, Image } from 'semantic-ui-react';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
@@ -21,6 +21,9 @@ class Contact extends React.Component {
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
+        </Card.Content>
+        <Card.Content extra>
+          <Link to={`/edit/${this.props.contact._id}`}>Edit</Link>
         </Card.Content>
       </Card>
     );
