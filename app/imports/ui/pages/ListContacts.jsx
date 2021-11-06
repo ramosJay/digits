@@ -3,7 +3,6 @@ import { Meteor } from 'meteor/meteor';
 import { Container, Header, Loader, Card } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
-import { Stuffs } from '../../api/stuff/Stuff';
 import Contact from '../components/Contact';
 import { Contacts } from '../../api/contact/Contacts';
 
@@ -30,7 +29,7 @@ class ListContacts extends React.Component {
 
 // Require an array of Stuff documents in the props.
 ListContacts.propTypes = {
-  stuffs: PropTypes.array.isRequired,
+  contacts: PropTypes.array.isRequired,
   ready: PropTypes.bool.isRequired,
 };
 
