@@ -8,6 +8,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
 import NotFound from '../pages/NotFound';
+import ListContactsAdmin from '../pages/ListContactsAdmin';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
@@ -30,6 +31,7 @@ class App extends React.Component {
             <ProtectedRoute path="/list" component={ListContacts}/>
             <ProtectedRoute path="/add" component={AddContact}/>
             <ProtectedRoute path="/edit/:_id" component={EditContact}/>
+            <AdminProtectedRoute path="/admin" component={ListContactsAdmin}/>
             <Route component={NotFound}/>
           </Switch>
           <Footer/>

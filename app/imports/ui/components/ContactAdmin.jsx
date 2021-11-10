@@ -31,12 +31,6 @@ class ContactAdmin extends React.Component {
 
 // Require a document to be passed to this component.
 ContactAdmin.propTypes = {
-  stuff: PropTypes.shape({
-    name: PropTypes.string,
-    quantity: PropTypes.number,
-    condition: PropTypes.string,
-    _id: PropTypes.string,
-  }).isRequired,
   contact: PropTypes.object.isRequired,
 };
 
