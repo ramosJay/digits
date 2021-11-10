@@ -124,28 +124,36 @@ Once login, the user is broght to the user Home Page, where they can add or view
 
 ![](doc/UserHomePage.PNG)
 
+#### Add Contacts
+
+Users can add a contact. Here, the user need to insert a Name, Address, Image, and Description.
+
+![](doc/addContact.PNG)
+![](doc/addContact2.PNG)
+
 #### List Contacts
 
 Users can view thier given listed contacts.
 
-![](listContacts.PNG)
+![](doc/listContacts.PNG)
 
 #### Edit Contacts
 
 Users can edit their contacts via the edit buttion below the contacts's description. They will be brought to a edit contact page.
 
-![](editContact.PNG)
+![](doc/editContact.PNG)
 
 
 #### Notes
 
 Users can also leave notes on their contacts. Each note will leave a timestamp.
 
-![](Notes.PNG)
+![](doc/Notes.PNG)
 
 #### Admin Page
 
-After logging in, here is the page that allows you to add new Stuff:
+The Admin page has access to their own contact list, and can view all created contacts.
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/add-stuff-page.png)
+![](doc/Admin.PNG)
+![](doc/Admin2.PNG)
 
