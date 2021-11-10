@@ -5,7 +5,6 @@ import { Card, Image, Feed } from 'semantic-ui-react';
 import Note from './Note';
 import AddNote from './AddNote';
 
-/** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class Contact extends React.Component {
   render() {
     return (

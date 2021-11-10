@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import { Feed } from 'semantic-ui-react';
 
-/** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class Note extends React.Component {
   render() {
     return (
