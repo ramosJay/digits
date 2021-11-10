@@ -26,8 +26,4 @@ class NoteCollection {
   }
 }
 
-/**
- * The singleton instance of the StuffsCollection.
- * @type {StuffsCollection}
- */
 export const Notes = new NoteCollection();
